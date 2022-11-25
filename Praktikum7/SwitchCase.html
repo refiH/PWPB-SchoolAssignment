@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LATIHAN SWITCH</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script>
+        alert("MENU MASAKAN PADANG\nSILAHKAN PILIH MENU YANG DIINGINKAN\n\n\nKlik ok untuk melanjutkan");
+        var pilihan = prompt(
+            "1. Rendang.....Rp14.000\n 2. Ikan Balado.....Rp13.000\n 3. Dendeng Balado.....Rp17.000\n 4. Soto Padang.....Rp15.000\n 5. Gulai Paku.....Rp20.000"
+        );
+
+        pilihan = parseInt(pilihan);
+
+        switch (pilihan) {
+            case 1:
+                alert("Menu yang anda pilih : Rendang");
+                break;
+            case 2:
+                alert("Menu yang anda pilih : Ikan Balado");
+                break;
+            case 3:
+                alert("Menu yang anda pilih : Dendeng Balado");
+                break;
+            case 4:
+                alert("Menu yang anda pilih : Soto Padang");
+                break;
+            case 5:
+                alert("Menu yang anda pilih : Gulai Paku");
+                break;
+
+            default:
+                alert("Menu yang anda pilih : Tidak Ada/Silahkan pilih menu yang lain TerimaKasih");
+                break;
+        }
+    </script>
+</body>
+
+</html>

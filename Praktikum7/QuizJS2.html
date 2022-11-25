@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz JS 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script>
+        var hasil;
+
+        alert("Perhitungan Aritmatika");
+        var pilihan = prompt(
+            "1. Pertambahan\n2. Pengurangan\n3. Perkalian\n4. Pembagian\n5. Selisih"
+        );
+        pilihan = parseInt(pilihan);
+
+        switch (pilihan) {
+            case 1:
+                alert("Pertambahan");
+                break;
+            case 2:
+                alert("Pengurangan");
+                break;
+            case 3:
+                alert("Perkalian");
+                break;
+            case 4:
+                alert("Pembagian");
+                break;
+            case 5:
+                alert("Selisih");
+                break;
+            default:
+                alert("Anda salah menginput");
+                break;
+        }
+
+        var no1 = prompt(
+            "Masukkan bilangan pertama"
+        );
+        no1 = parseInt(no1);
+
+        var no2 = prompt(
+            "Masukkan bilangan kedua"
+        );
+        no2 = parseInt(no2);
+
+        switch (pilihan) {
+            case 1:
+                hasil = no1 + no2;
+                break;
+            case 2:
+                hasil = no1 - no2;
+                break;
+            case 3:
+                hasil = no1 * no2;
+                break;
+            case 4:
+                hasil = no1 / no2;
+                break;
+            case 5:
+                hasil = no1 % no2;
+                break;
+            default:
+                alert("Anda salah menginput");
+                break;
+        }
+        alert("Hasilnya adalah : " + hasil)
+    </script>
+</body>
+
+</html>

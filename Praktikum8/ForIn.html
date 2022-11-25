@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For In Loop</title>
+</head>
+
+<body>
+    <h2>Pengulangan For pada Javascript</h2>
+    <p>pernyataan for in mengulang melalui properti pada objek</p>
+    <p id="forinloop"></p>
+    <script>
+        var txt = "";
+        var orang = {
+            fname: "Anna",
+            lname: "Sui",
+            usia: 16
+        };
+        var x;
+        for (x in orang) {
+            txt += orang[x] + " ";
+        }
+        document.getElementById("forinloop").innerHTML = txt;
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+* {
+    font-family: Poppins;
+}
+
+td {
+    padding: 10px;
+}
+
+fieldset {
+    border: 2px dashed green;
+    background-color: #fee4c3;
+    display: flex;
+    justify-content: center;
+}
+
+legend {
+    background-color: salmon;
+    color: white;
+}
+
+input {
+    border: 2px solid #77c262;
+}
+
+th {
+    text-align: left;
+    color: salmon;
+}
+
+button {
+    border: 0;
+    color: brown;
+    background-color: #fee4c3;
+    filter: drop-shadow(2px 2px 1px black);
+    box-shadow: inset 2px 2px 2px white;
+}
+
+
+button:hover {
+    filter: drop-shadow(1px 1px 1px black);
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fieldset With CSS</title>
+    <link rel="stylesheet" href="fieldsetwithcss.css">
+</head>
+
+<body>
+    <fieldset>
+        <legend>Formulir Pendaftaran Calon Peserta</legend>
+        <table>
+            <tr>
+                <th>Nama</th>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <th>No. Induk Penduduk</th>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <th>Jenis Kelamin</th>
+                <td><input type="radio" name="kelamin" value="pria">Pria</td>
+                <td><input type="radio" name="kelamin" value="wanita">Wanita</td>
+            </tr>
+
+            <tr>
+                <th>TTL</th>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <th>Agama</th>
+                <td>
+                    <select name="agama">
+                        <option value="islam">Islam</option>
+                        <option value="kristen">Kristen</option>
+                        <option value="katolik">Katolik</option>
+                        <option value="hindu">Hindu</option>
+                        <option value="buddha">Buddha</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <th>Status</th>
+                <td>
+                    <select name="status">
+                        <option value="kawin">Kawin</option>
+                        <option value="belumkawin">Belum Kawin</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <th>
+                    <button>Browse</button>
+                    <button>Simpan</button>
+                </th>
+            </tr>
+        </table>
+    </fieldset>
+</body>
+
+</html>

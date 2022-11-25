@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IF + ELSE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <p id="demo"><b>IF</b> akan memunculkan tulisan "Selamat Pagi!"</p>
+    <p>Jika pada opsi IF tidak ada maka akan pindah ke <b>ELSE</b> memunculkan "Hello World!"<br>kata yang muncul adalah
+        :</p>
+
+    <script>
+        var d = new Date();
+        var time = d.getHours();
+
+        if (time < 9) {
+            document.write("Selamat Pagi !");
+        } else {
+            document.write("Hello World");
+        }
+    </script>
+</body>
+
+</html>
