@@ -1,0 +1,82 @@
+<html>
+
+<head>
+    <title>Contoh Embedded, Selector Class & ID</title>
+    <style type="text/css">
+        #Bubblegum {
+            height: 28%;
+            background-color: mistyrose;
+            border: solid;
+            font-family: Impact;
+            box-align: center;
+            cursor: crosshair;
+        }
+
+        #Lemonade {
+            background-color: lemonchiffon;
+            border: dashed;
+            font-family: Poppins;
+        }
+
+        #Mint {
+            height: 28%;
+            background-color: azure;
+            border: hidden;
+            font-family: Comfortaa;
+        }
+
+        .kotak {
+            text-shadow: 5px 5px 5px silver;
+            text-align: center;
+            font-size: 66pt;
+            color: sandybrown;
+        }
+
+        input#tombol {
+            color: aqua;
+            background-color: salmon;
+            border: 2px dotted dodgerblue;
+            font-size: 14px;
+            font: bold;
+        }
+
+        .username {
+            color: blue;
+            background-color: aqua;
+            size: 12px;
+        }
+
+        input#tombol:hover {
+            color: yellow;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="Bubblegum" class="kotak">Bismillah</div>
+    <div id="Lemonade">
+        <form name="LOGIN">
+            <table align="center">
+                <tr>
+                    <td><label for="username" class="username">Username</label></td>
+                    <td><input type="text"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="password">Password</label></td>
+                    <td><input type="password"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" id="tombol" value="   Login   ">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <div id="Mint" class="kotak">Tetap Semangat</div>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+* {
+    font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+table {
+    border: 2px dashed blue;
+}
+
+.header {
+    background-color: sandybrown;
+}
+
+.title {
+    width: 450px;
+    text-align: center;
+    text-decoration: underline;
+    color: brown;
+    border: 3px dashed salmon;
+}
+
+.th {
+    background-color: aquamarine;
+    color: blue;
+    font-style: italic;
+    border: 3px solid salmon;
+}
+
+.no {
+    width: 30px;
+}
+
+.img1 {
+    width: 50px;
+}
+
+.img2 {
+    height: 200px;
+    width: 300px;
+}
+
+.grey {
+    background-color: rgb(170, 170, 170);
+    box-shadow: inset 2px 2px grey;
+}
